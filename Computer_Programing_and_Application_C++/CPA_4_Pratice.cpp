@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void zong_da(int a, int W) { //a ­þ­Ó¦r  ²Ä´X¦C
+void zong_da(int a, int W) { //a å“ªå€‹å­—  ç¬¬å¹¾åˆ—
 	int i;
 
 	for (i = W - 1; i >= 0; --i) {

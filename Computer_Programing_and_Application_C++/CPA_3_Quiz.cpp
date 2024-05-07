@@ -6,7 +6,7 @@ int main()
 {
 	int i, j, n, m, k, l;
 
-	cout << "¯x°}¤j¤p";
+	cout << "çŸ©é™£å¤§å°";
 	cin >> n >> m;
 
 	int **ptr = new int*[n];

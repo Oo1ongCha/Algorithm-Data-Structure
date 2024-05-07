@@ -7,7 +7,7 @@ int main()
 {
 	int i, j, n, m;
 
-	string poem = "�K���M�ֺ��`�s���Ĥѳ¤Ψd�����ӥh�M�ϧg�l���k�󥲰ݿA��";
+	string poem = "春風和煦滿常山芍藥天麻及牡丹遠志去尋使君子當歸何必問澤蘭";
 
 	n = 7;
 	for (i = 0; i < n; i++) {

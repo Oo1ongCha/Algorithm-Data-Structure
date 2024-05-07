@@ -10,11 +10,11 @@ int main()
 	srand(static_cast<unsigned>(time(NULL)));
 
 	int i, j, k, n, m;
-	string poem = "¬K¯v¤£Ä±¾å³B³B»D³Ú³¾©]¨Ó­·«BÁnªá¸¨ª¾¦h¤Ö";
+	string poem = "æ˜¥çœ ä¸è¦ºæ›‰è™•è™•èå•¼é³¥å¤œä¾†é¢¨é›¨è²èŠ±è½çŸ¥å¤šå°‘";
 
-	int r[6] = { 5,6,7,8,9,10 }; //¦L´X¦æ
+	int r[6] = { 5,6,7,8,9,10 }; //å°å¹¾è¡Œ
 
-	for (i = 0; i < 6; i++) {  //¥æ´«
+	for (i = 0; i < 6; i++) {  //äº¤æ›
 		n = rand() % 6;
 		k = r[i];
 		r[i] = r[n];

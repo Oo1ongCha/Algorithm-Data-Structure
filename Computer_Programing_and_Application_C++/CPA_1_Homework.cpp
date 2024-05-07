@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void yang(int l, int k, char a) //¥¡
+void yang(int l, int k, char a) //å¤®
 {
 	if (l == 4)
 	{
@@ -61,13 +61,13 @@ int main()
 {
 	int i, j, k, l;
 
-	for (i = 0; i < 5; i++) //¤¤ ¾î¦C
+	for (i = 0; i < 5; i++) //ä¸­ æ©«åˆ—
 	{
-		for (l = 0; l < 7; l++)//¥¡ ¾î¦C
+		for (l = 0; l < 7; l++)//å¤® æ©«åˆ—
 		{
-			for (j = 0; j < 5; j++) //¤¤
+			for (j = 0; j < 5; j++) //ä¸­
 			{
-				for (k = 0; k < 7; k++)//¥¡ ª½¦æ
+				for (k = 0; k < 7; k++)//å¤® ç›´è¡Œ
 				{
 					if (i == 1)
 					{

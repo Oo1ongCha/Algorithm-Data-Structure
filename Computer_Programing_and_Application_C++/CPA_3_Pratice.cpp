@@ -7,25 +7,25 @@ int main()
 {
 	int x, y, z, i, j, n, m, k, l;
 
-	cout << "¯x°}¤j¤p >";
+	cout << "çŸ©é™£å¤§å° >";
 	cin >> n >> m;
 
-	cout << "¤è¶ô¤j¤p >";
+	cout << "æ–¹å¡Šå¤§å° >";
 	cin >> k >> l;
 
 	cout << endl;
 
-	int **ptr_ma = new int*[n]; //¯x°}n¦C
+	int **ptr_ma = new int*[n]; //çŸ©é™£nåˆ—
 	for (i = 1; i < m + 1; i++) {
-		ptr_ma[i] = new int[m]; //m ¦æ
+		ptr_ma[i] = new int[m]; //m è¡Œ
 	}
 
-	int **ptr_bl = new int*[k]; //¤è¶ôk¦C
+	int **ptr_bl = new int*[k]; //æ–¹å¡Škåˆ—
 	for (i = 1; i < l + 1; i++) {
-		ptr_bl[i] = new int[l]; //l ¦æ
+		ptr_bl[i] = new int[l]; //l è¡Œ
 	}
 
-	for (i = 1; i < n + 1; i++) {//¯x°}
+	for (i = 1; i < n + 1; i++) {//çŸ©é™£
 		for (j = 1; j < m + 1; j++) {
 			ptr_ma[i][j] = rand() % 9;
 			cout << ptr_ma[i][j] << " ";
@@ -35,7 +35,7 @@ int main()
 	cout << endl << endl;
 
 
-	for (y = 1; y < k + 1; y++) {// ¤è¶ô ¯x°}
+	for (y = 1; y < k + 1; y++) {// æ–¹å¡Š çŸ©é™£
 		for (i = 1; i < n+1; i++) {
 			for (x = 1; x < l + 1; x++) {
 				for (j = 1; j < m + 1; j++) {

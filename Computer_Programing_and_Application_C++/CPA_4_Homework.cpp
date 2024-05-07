@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void zong_da(int a, int W) { //a ­ş­Ó¦r  ²Ä´X¦C
+void zong_da(int a, int W) { //a å“ªå€‹å­—  ç¬¬å¹¾åˆ—
 	int i;
 
 	for (i = W - 1; i >= 0; --i) {
@@ -21,12 +21,12 @@ int main()
 	int Zong_Da[2][H] = { {0x4,0x1f,0x15,0x1f,0x4},{0x4,0x1f,0x4,0xa,0x11} };
 	int p[5], q[4][2], i, j, k, l, m, n;
 
-	p[4] = 2; //³Ì¤Ö¨â­Ó
+	p[4] = 2; //æœ€å°‘å…©å€‹
 	for (i = 0; i < 4; i++) {
-		(p[4] > 0) ? (p[i] = rand() % 2) : (p[i] = 1); //­n¤£­n¦L
+		(p[4] > 0) ? (p[i] = rand() % 2) : (p[i] = 1); //è¦ä¸è¦å°
 		(p[i] == 0) ? (p[4]--) : (0);
-		(p[i] == 1) ? (q[i][0] = rand() % 5) : (q[i][0] = 2 * H); //±q­ş¦L
-		q[i][1] = rand() % 2; //¦L­ş­Ó¦r
+		(p[i] == 1) ? (q[i][0] = rand() % 5) : (q[i][0] = 2 * H); //å¾å“ªå°
+		q[i][1] = rand() % 2; //å°å“ªå€‹å­—
 	}
 
 	for (i = 0; i < 2 * H - 1; i++) {

@@ -8,7 +8,7 @@ const int N = 10, R = 5, C = 4;
 class Cbitmap {
 private:
 
-	static  const int bitmap[N][R];   // ±`¼Æ­È¦b¥½§À³]©w
+	static  const int bitmap[N][R];   // å¸¸æ•¸å€¼åœ¨æœ«å°¾è¨­å®š
 	string  bstr;
 
 public:
@@ -40,9 +40,9 @@ public:
 	void  display() {
 		int i, j, k, l, m, p;
 		int n = bstr.length();
-		for (i = 0; i < 5; i++) { //¤j¦æ
-			for (l = 0; l < 5; l++) { //¤p¦æ
-				for (j = 0; j < n; j++) { //´X­Ó¼Æ¦r
+		for (i = 0; i < 5; i++) { //å¤§è¡Œ
+			for (l = 0; l < 5; l++) { //å°è¡Œ
+				for (j = 0; j < n; j++) { //å¹¾å€‹æ•¸å­—
 					k = bstr[j] - 48;
 					m = bitmap[k][i];
 					p = bitmap[k][l];
@@ -57,9 +57,9 @@ public:
 	void  display_inverse() {
 		int i, j, k, l, m, p;
 		int n = bstr.length();
-		for (i = 0; i < 5; i++) { //¤j¦æ
-			for (l = 0; l < 5; l++) { //¤p¦æ
-				for (j = 0; j < n; j++) { //´X­Ó¼Æ¦r
+		for (i = 0; i < 5; i++) { //å¤§è¡Œ
+			for (l = 0; l < 5; l++) { //å°è¡Œ
+				for (j = 0; j < n; j++) { //å¹¾å€‹æ•¸å­—
 					k = bstr[j] - 48;
 					m = bitmap[k][4 - i];
 					p = bitmap[k][4 - l];
@@ -87,7 +87,7 @@ int main() {
 	}
 }
 
-// ½Ð¯d·N³o¸Ìªº³]©w¤è¦¡¡A¤£¶· static
+// è«‹ç•™æ„é€™è£¡çš„è¨­å®šæ–¹å¼ï¼Œä¸é ˆ static
 const int  Cbitmap::bitmap[N][R] = {
 	{0xf,0x9,0x9,0x9,0xf},{0x2,0x2,0x2,0x2,0x2},{0xf,0x1,0xf,0x8,0xf},
 	{0xf,0x1,0x7,0x1,0xf},{0xa,0xa,0xf,0x2,0x2},{0xf,0x8,0xf,0x1,0xf},

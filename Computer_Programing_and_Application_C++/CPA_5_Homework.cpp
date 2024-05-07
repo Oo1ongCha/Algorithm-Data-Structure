@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int i, j, k, n, m;
-	string poem = "¬K¯v¤£Ä±¾å³B³B»D³Ú³¾©]¨Ó­·«BÁnªá¸¨ª¾¦h¤Ö";
+	string poem = "æ˜¥çœ ä¸è¦ºæ›‰è™•è™•èå•¼é³¥å¤œä¾†é¢¨é›¨è²èŠ±è½çŸ¥å¤šå°‘";
 
 	n = 5;
 	for (i = 0; i < 10; i++) {
